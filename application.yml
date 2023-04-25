@@ -3,12 +3,11 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://eureka:password@datahub-discovery-server:8761/eureka
+      defaultZone: http://eureka:password@newyeti-discovery-server:8761/eureka
   instance:
     #hostname: service-registry
     prefer-ip-address: true
     
-
 management:
   tracing:
     sampling:
